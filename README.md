@@ -50,7 +50,7 @@
 Simple closed\-loop control system example:
 
 <p style="text-align:left">
-   <img src="./resources/README/image_0.png" width="744" alt="image_0.png">
+   <img src="./resources/README.md/image_0.png" width="744" alt="image_0.png">
 </p>
 
 <a id="TMP_8948"></a>
@@ -64,7 +64,7 @@ Simple closed\-loop control system example:
 
 # Modeling The Plant
 <p style="text-align:left">
-   <img src="./resources/README/image_1.png" width="653" alt="image_1.png">
+   <img src="./resources/README.md/image_1.png" width="653" alt="image_1.png">
 </p>
 
 
@@ -72,7 +72,7 @@ Simple closed\-loop control system example:
 The problem is **I don't know the specification** of the motor and its driver (the plant)
 
 <p style="text-align:left">
-   <img src="./resources/README/image_2.png" width="744" alt="image_2.png">
+   <img src="./resources/README.md/image_2.png" width="744" alt="image_2.png">
 </p>
 
 
@@ -91,7 +91,7 @@ So, this is where we need **System Identification**
 
 # Wiring Diagram
 <p style="text-align:left">
-   <img src="./resources/README/image_3.png" width="723" alt="image_3.png">
+   <img src="./resources/README.md/image_3.png" width="723" alt="image_3.png">
 </p>
 
 <a id="H_0d08"></a>
@@ -120,7 +120,7 @@ save('Output\estimation.mat', 'estimation_iddata');
 plot(estimation_iddata)
 ```
 
-<center><img src="./resources/README/figure_0.png" width="562" alt="figure_0.png"></center>
+<center><img src="./resources/README.md/figure_0.png" width="562" alt="figure_0.png"></center>
 
 <a id="H_3ef0"></a>
 
@@ -132,28 +132,28 @@ save('Output\validation.mat', 'validation_iddata');
 plot(validation_iddata)
 ```
 
-<center><img src="./resources/README/figure_1.png" width="562" alt="figure_1.png"></center>
+<center><img src="./resources/README.md/figure_1.png" width="562" alt="figure_1.png"></center>
 
 <a id="H_09aa"></a>
 
 ## (3) Use System Identification App to estimate plant model
 <p style="text-align:left">
-   <img src="./resources/README/image_4.png" width="711" alt="image_4.png">
+   <img src="./resources/README.md/image_4.png" width="711" alt="image_4.png">
 </p>
 
 
 <p style="text-align:left">
-   <img src="./resources/README/image_5.png" width="671" alt="image_5.png">
+   <img src="./resources/README.md/image_5.png" width="671" alt="image_5.png">
 </p>
 
 
 <p style="text-align:left">
-   <img src="./resources/README/image_6.png" width="686" alt="image_6.png">
+   <img src="./resources/README.md/image_6.png" width="686" alt="image_6.png">
 </p>
 
 
 <p style="text-align:left">
-   <img src="./resources/README/image_7.png" width="280" alt="image_7.png">
+   <img src="./resources/README.md/image_7.png" width="280" alt="image_7.png">
 </p>
 
 
@@ -168,19 +168,19 @@ Then click "Close".
 You will see "estimation\_idddata" and "validation\_iddata" in Data Views. Drag and drop accordingly to this illustration.
 
 <p style="text-align:left">
-   <img src="./resources/README/image_8.png" width="641" alt="image_8.png">
+   <img src="./resources/README.md/image_8.png" width="641" alt="image_8.png">
 </p>
 
 
 <p style="text-align:left">
-   <img src="./resources/README/image_9.png" width="276" alt="image_9.png">
+   <img src="./resources/README.md/image_9.png" width="276" alt="image_9.png">
 </p>
 
 
 Configure exactly as below. Feel free to modify if you know what you're doing.
 
 <p style="text-align:left">
-   <img src="./resources/README/image_10.png" width="354" alt="image_10.png">
+   <img src="./resources/README.md/image_10.png" width="354" alt="image_10.png">
 </p>
 
 
@@ -190,7 +190,7 @@ Then click "Estimate" and wait.
 Once done, drag the result as below to workspace.
 
 <p style="text-align:left">
-   <img src="./resources/README/image_11.png" width="563" alt="image_11.png">
+   <img src="./resources/README.md/image_11.png" width="563" alt="image_11.png">
 </p>
 
 
@@ -212,21 +212,21 @@ open tune_controller.slx
 Double click the PID block
 
 <p style="text-align:left">
-   <img src="./resources/README/image_12.png" width="450" alt="image_12.png">
+   <img src="./resources/README.md/image_12.png" width="450" alt="image_12.png">
 </p>
 
 
 Make sure changes applied and tuning method is "Transfer Function Based", then click Tune button
 
 <p style="text-align:left">
-   <img src="./resources/README/image_13.png" width="428" alt="image_13.png">
+   <img src="./resources/README.md/image_13.png" width="428" alt="image_13.png">
 </p>
 
 
 Adjust these sliders below then hit "Update Block" button.
 
 <p style="text-align:left">
-   <img src="./resources/README/image_14.png" width="606" alt="image_14.png">
+   <img src="./resources/README.md/image_14.png" width="606" alt="image_14.png">
 </p>
 
 
